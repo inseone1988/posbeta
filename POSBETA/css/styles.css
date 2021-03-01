@@ -1,0 +1,98 @@
+.card-counter-header{
+    margin: 0rem;
+    padding: 0.10rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #7d7d7d;
+    text-align: center;
+}
+
+.card-counter-body{
+    padding: 0.25rem;
+    text-align: center;
+}
+
+.card-counter-body p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: #949494;
+}
+
+.lcd-display{
+    margin-top: 10px;
+    background-color: #9fe2a7;
+    border: solid 3px #82bb89;
+    height: 70px;
+}
+.lcd-messages{
+    font-size: 0.8rem;
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+.lcd-money-sign{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.lcd-money-ammount{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.buttons-wrapper .btn{
+    height: 60px !important;
+}
+
+.selected-row{
+    border: solid 3px #2bd0d0 !important;
+}
+
+tfoot .hide{
+    display: none;
+}
+
+.payment-total-text{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #00aac7;
+}
+
+.payment-total{
+    font-size: 2rem;
+}
+
+.corte-money-ammount{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.table-wrapper{
+    height: 400px;
+    overflow-x: visible;
+    overflow-y: auto;
+}
+
+.ssb{
+    font-size: 0.6rem;
+}
+
+.ssb button{
+    font-size: 0.6rem;
+    padding: 0.4rem;
+}
+
+h3 small a {
+    font-size: 0.9rem;
+}
+
+h3 small a span{
+    font-size: 0.6rem;
+}
+
+.pagoerrortext{
+    font-size: 2rem;
+}

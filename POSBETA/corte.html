@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="css/jqueryautocomplete.css">
+    <title>Corte del dia</title>
+</head>
+<body style="height: 11in; width: 8.5in">
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <img src="img/logo.jpg" class="img-fluid" />
+        </div>
+        <div class="col-md-8 pt-3">
+            <div class="row">
+                <div class="col-md-4">
+                    Sistema
+                    <h3 id="system-count">$ 1000</h3>
+                </div>
+                <div class="col-md-4">
+                    Conteo de caja
+                    <h3 id="corte-count">$ 1000</h3>
+                </div>
+                <div class="col-md-4">
+                    Diferencia
+                    <h3 id="diference">$ 1000</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-6">
+            <table class="table table-sm">
+                <thead>
+                <tr>
+                    <th>Categoria</th>
+                    <th>Cantidad</th>
+                    <th>Total</th>
+                </tr>
+                </thead>
+                <tbody id="summary"></tbody>
+            </table>
+            <table class="table table-sm">
+                <thead>
+                <tr>
+                    <th colspan="3">Entradas y Retiros</th>
+                </tr>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Descripcion</th>
+                    <th>Cantidad</th>
+                </tr>
+                </thead>
+                <tbody id="cashmvm"></tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <h2>Corte de caja del dia</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-sm table-striped">
+                <thead>
+                <tr>
+                    <th colspan="5" class="text-capitalize text-center">
+                        <h4>Copias</h4>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Id</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                </tr>
+                </thead>
+                <tbody id="copies"></tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-sm">
+                <thead>
+                <tr>
+                    <th colspan="5" class="text-center">
+                        <h4>Papeleria</h4>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Total</th>
+                </tr>
+                </thead>
+                <tbody id="pape"></tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-sm">
+                <thead>
+                <tr>
+                    <th colspan="5" class="text-center"><h4>Cyberplanet</h4></th>
+                </tr>
+                <tr>
+                    <th>Id</th>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Total</th>
+                </tr>
+                </thead>
+                <tbody id="cyber"></tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-sm">
+                <thead>
+                <tr>
+                    <th>Detalles por ticket</th>
+                </tr>
+                </thead>
+                <tbody id="sell-by-ticket"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../node_modules/numeral/numeral.js"></script>
+<script src="../node_modules/moment/moment.js"></script>
+<script src="js/corte.js"></script>
+<script >
+    $(document).ready(function(){
+        getCorteData(function(){
+            print();
+        });
+
+    });
+</script>
+</body>
+</html>

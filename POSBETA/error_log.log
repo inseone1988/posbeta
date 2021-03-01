@@ -1,0 +1,681 @@
+[14-Oct-2020 23:28:44 UTC] PHP Warning:  require_once(/var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php): failed to open stream: No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/Auth.php on line 2
+[14-Oct-2020 23:28:44 UTC] PHP Fatal error:  require_once(): Failed opening required '/var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php' (include_path='.:/opt/plesk/php/7.4/share/pear') in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/Auth.php on line 2
+[14-Oct-2020 23:30:54 UTC] PHP Warning:  require(/var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php on line 2
+[14-Oct-2020 23:30:54 UTC] PHP Fatal error:  require(): Failed opening required '/var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/autoload.php' (include_path='.:/opt/plesk/php/7.4/share/pear') in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php on line 2
+[14-Oct-2020 23:43:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'vialogik_ensueno'@'localhost' (using password: YES) in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php:17
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(17): PDO->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/Auth.php(77): connection()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/Auth.php(112): login()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php on line 17
+[14-Oct-2020 23:47:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'vialogik_ensueno'@'localhost' (using password: YES) in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php:17
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(17): PDO->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/Auth.php(77): connection()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/Auth.php(112): login()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php on line 17
+[14-Oct-2020 23:48:59 UTC] PHP Fatal error:  Uncaught Delight\Auth\UnknownUsernameException in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/delight-im/auth/src/UserManager.php:274
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/delight-im/auth/src/Auth.php(1052): Delight\Auth\UserManager->getUserDataByUsername()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/delight-im/auth/src/Auth.php(324): Delight\Auth\Auth->authenticateUserInternal()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/Auth.php(84): Delight\Auth\Auth->loginWithUsername()
+#3 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/Auth.php(112): login()
+#4 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/delight-im/auth/src/UserManager.php on line 274
+[15-Oct-2020 10:57:14 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Oct-2020 10:57:14 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Oct-2020 10:57:14 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Oct-2020 10:57:14 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Oct-2020 19:18:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Oct-2020 19:18:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Oct-2020 19:18:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Oct-2020 19:18:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Oct-2020 20:06:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Oct-2020 20:06:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Oct-2020 20:06:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Oct-2020 20:06:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Oct-2020 17:39:26 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Oct-2020 17:39:26 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Oct-2020 17:39:26 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Oct-2020 17:39:26 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Oct-2020 15:30:41 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:42 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:43 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:46 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:48 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:49 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:49 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:49 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:52 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:53 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:53 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:53 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:54 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:30:59 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:31:00 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:31:00 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:31:03 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:31:06 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:31:07 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:31:08 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 15:31:09 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php:321
+Stack trace:
+#0 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/connection.php(7): Medoo\Medoo->__construct()
+#1 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(22): db()
+#2 /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php(845): newOrder()
+#3 {main}
+  thrown in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 321
+[19-Oct-2020 18:48:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Oct-2020 18:48:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Oct-2020 18:48:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Oct-2020 18:48:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Oct-2020 18:57:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Oct-2020 18:57:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Oct-2020 18:57:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Oct-2020 18:57:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Oct-2020 19:06:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Oct-2020 19:06:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Oct-2020 19:06:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Oct-2020 19:06:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Oct-2020 18:35:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Oct-2020 18:35:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Oct-2020 18:35:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Oct-2020 18:35:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Oct-2020 20:05:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Oct-2020 20:05:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Oct-2020 20:05:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Oct-2020 20:05:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Oct-2020 17:23:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Oct-2020 17:23:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Oct-2020 17:23:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Oct-2020 17:23:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Oct-2020 18:55:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Oct-2020 18:55:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Oct-2020 18:55:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Oct-2020 18:55:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Oct-2020 19:08:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Oct-2020 19:08:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Oct-2020 19:08:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Oct-2020 19:08:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Oct-2020 18:47:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Oct-2020 18:47:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Oct-2020 18:47:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Oct-2020 18:47:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Oct-2020 18:44:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Oct-2020 18:44:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Oct-2020 18:44:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Oct-2020 18:44:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Oct-2020 19:56:54 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Oct-2020 19:56:54 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Oct-2020 19:56:54 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Oct-2020 19:56:54 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[31-Oct-2020 17:08:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[31-Oct-2020 17:08:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[31-Oct-2020 17:08:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[31-Oct-2020 17:08:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Nov-2020 17:40:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Nov-2020 17:40:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Nov-2020 17:40:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Nov-2020 17:40:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Nov-2020 19:10:04 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Nov-2020 19:10:04 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Nov-2020 19:10:04 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Nov-2020 19:10:04 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Nov-2020 19:10:40 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Nov-2020 19:10:40 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Nov-2020 19:10:40 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Nov-2020 19:10:40 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Nov-2020 19:26:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Nov-2020 19:26:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Nov-2020 19:26:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Nov-2020 19:26:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Nov-2020 20:04:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Nov-2020 20:04:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Nov-2020 20:04:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Nov-2020 20:04:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Nov-2020 17:25:01 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Nov-2020 17:25:01 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Nov-2020 17:25:01 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Nov-2020 17:25:01 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Nov-2020 18:53:54 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Nov-2020 18:53:54 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Nov-2020 18:53:54 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Nov-2020 18:53:54 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Nov-2020 18:57:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Nov-2020 18:57:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Nov-2020 18:57:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Nov-2020 18:57:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Nov-2020 18:47:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Nov-2020 18:47:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Nov-2020 18:47:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Nov-2020 18:47:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Nov-2020 18:51:23 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Nov-2020 18:51:23 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Nov-2020 18:51:23 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Nov-2020 18:51:23 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Nov-2020 20:02:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Nov-2020 20:02:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Nov-2020 20:02:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Nov-2020 20:02:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Nov-2020 17:11:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Nov-2020 17:11:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Nov-2020 17:11:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Nov-2020 17:11:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Nov-2020 10:12:27 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php on line 811
+[16-Nov-2020 18:33:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Nov-2020 18:33:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Nov-2020 18:33:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Nov-2020 18:33:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Nov-2020 18:58:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Nov-2020 18:58:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Nov-2020 18:58:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Nov-2020 18:58:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Nov-2020 18:54:43 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Nov-2020 18:54:43 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Nov-2020 18:54:43 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Nov-2020 18:54:43 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Nov-2020 19:01:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Nov-2020 19:01:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Nov-2020 19:01:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Nov-2020 19:01:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Nov-2020 19:56:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Nov-2020 19:56:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Nov-2020 19:56:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Nov-2020 19:56:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Nov-2020 16:55:21 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Nov-2020 16:55:21 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Nov-2020 16:55:21 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Nov-2020 16:55:21 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Nov-2020 18:51:28 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Nov-2020 18:51:28 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Nov-2020 18:51:28 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Nov-2020 18:51:28 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Nov-2020 18:46:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Nov-2020 18:46:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Nov-2020 18:46:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Nov-2020 18:46:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Nov-2020 18:46:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Nov-2020 18:46:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Nov-2020 18:46:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Nov-2020 18:46:22 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Nov-2020 19:14:19 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Nov-2020 19:14:19 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Nov-2020 19:14:19 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Nov-2020 19:14:19 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Nov-2020 19:15:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Nov-2020 19:15:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Nov-2020 19:15:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Nov-2020 19:15:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Nov-2020 17:03:39 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Nov-2020 17:03:39 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Nov-2020 17:03:39 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Nov-2020 17:03:39 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Nov-2020 19:03:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Nov-2020 19:03:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Nov-2020 19:03:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Nov-2020 19:03:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[01-Dec-2020 18:59:12 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[01-Dec-2020 18:59:12 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[01-Dec-2020 18:59:12 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[01-Dec-2020 18:59:12 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Dec-2020 19:01:42 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Dec-2020 19:01:42 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Dec-2020 19:01:42 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Dec-2020 19:01:42 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Dec-2020 18:56:35 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Dec-2020 18:56:35 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Dec-2020 18:56:35 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Dec-2020 18:56:35 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Dec-2020 20:00:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Dec-2020 20:00:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Dec-2020 20:00:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Dec-2020 20:00:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Dec-2020 16:49:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Dec-2020 16:49:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Dec-2020 16:49:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Dec-2020 16:49:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Dec-2020 18:39:15 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Dec-2020 18:39:15 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Dec-2020 18:39:15 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Dec-2020 18:39:15 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Dec-2020 18:40:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Dec-2020 18:40:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Dec-2020 18:40:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Dec-2020 18:40:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Dec-2020 18:47:53 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Dec-2020 18:47:53 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Dec-2020 18:47:53 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Dec-2020 18:47:53 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Dec-2020 18:45:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Dec-2020 18:45:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Dec-2020 18:45:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Dec-2020 18:45:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Dec-2020 18:47:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Dec-2020 18:47:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Dec-2020 18:47:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Dec-2020 18:47:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Dec-2020 19:58:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Dec-2020 19:58:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Dec-2020 19:58:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Dec-2020 19:58:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Dec-2020 16:36:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Dec-2020 16:36:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Dec-2020 16:36:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Dec-2020 16:36:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Dec-2020 18:46:52 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Dec-2020 18:46:52 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Dec-2020 18:46:52 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Dec-2020 18:46:52 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Dec-2020 18:54:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Dec-2020 18:54:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Dec-2020 18:54:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Dec-2020 18:54:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Dec-2020 18:22:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Dec-2020 18:22:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Dec-2020 18:22:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Dec-2020 18:22:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Dec-2020 18:08:38 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Dec-2020 18:08:38 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Dec-2020 18:08:38 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Dec-2020 18:08:38 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Dec-2020 18:48:38 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Dec-2020 18:48:38 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Dec-2020 18:48:38 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Dec-2020 18:48:38 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Dec-2020 16:39:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Dec-2020 16:39:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Dec-2020 16:39:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Dec-2020 16:39:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Dec-2020 18:09:58 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Dec-2020 18:09:58 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Dec-2020 18:09:58 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Dec-2020 18:09:58 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Dec-2020 18:45:20 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Dec-2020 18:45:20 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Dec-2020 18:45:20 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Dec-2020 18:45:20 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Dec-2020 18:18:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Dec-2020 18:18:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Dec-2020 18:18:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Dec-2020 18:18:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Dec-2020 18:19:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Dec-2020 18:19:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Dec-2020 18:19:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Dec-2020 18:19:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Dec-2020 17:00:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Dec-2020 17:00:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Dec-2020 17:00:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Dec-2020 17:00:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Dec-2020 17:01:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Dec-2020 17:01:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Dec-2020 17:01:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Dec-2020 17:01:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Dec-2020 18:27:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Dec-2020 18:27:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Dec-2020 18:27:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Dec-2020 18:27:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Dec-2020 18:40:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Dec-2020 18:40:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Dec-2020 18:40:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Dec-2020 18:40:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Dec-2020 18:42:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Dec-2020 18:42:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Dec-2020 18:42:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Dec-2020 18:42:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Dec-2020 18:34:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Dec-2020 18:34:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Dec-2020 18:34:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Dec-2020 18:34:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Jan-2021 16:50:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Jan-2021 16:50:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Jan-2021 16:50:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Jan-2021 16:50:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Jan-2021 18:26:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Jan-2021 18:26:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Jan-2021 18:26:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Jan-2021 18:26:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Jan-2021 18:55:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Jan-2021 18:55:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Jan-2021 18:55:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Jan-2021 18:55:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Jan-2021 18:30:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Jan-2021 18:30:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Jan-2021 18:30:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Jan-2021 18:30:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Jan-2021 18:32:11 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Jan-2021 18:32:11 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Jan-2021 18:32:11 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[07-Jan-2021 18:32:11 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Jan-2021 18:38:13 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Jan-2021 18:38:13 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Jan-2021 18:38:13 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Jan-2021 18:38:13 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Jan-2021 17:06:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Jan-2021 17:06:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Jan-2021 17:06:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Jan-2021 17:06:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Jan-2021 17:07:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Jan-2021 17:07:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Jan-2021 17:07:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Jan-2021 17:07:17 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Jan-2021 18:50:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Jan-2021 18:50:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Jan-2021 18:50:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Jan-2021 18:50:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Jan-2021 18:52:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Jan-2021 18:52:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Jan-2021 18:52:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Jan-2021 18:52:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Jan-2021 18:50:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Jan-2021 18:50:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Jan-2021 18:50:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Jan-2021 18:50:59 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Jan-2021 18:56:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Jan-2021 18:56:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Jan-2021 18:56:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Jan-2021 18:56:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Jan-2021 18:57:42 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Jan-2021 18:57:42 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Jan-2021 18:57:42 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[14-Jan-2021 18:57:42 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Jan-2021 18:54:21 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Jan-2021 18:54:21 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Jan-2021 18:54:21 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Jan-2021 18:54:21 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Jan-2021 16:58:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Jan-2021 16:58:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Jan-2021 16:58:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Jan-2021 16:58:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Jan-2021 16:59:13 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Jan-2021 16:59:13 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Jan-2021 16:59:13 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Jan-2021 16:59:13 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Jan-2021 18:44:29 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Jan-2021 18:44:29 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Jan-2021 18:44:29 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Jan-2021 18:44:29 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Jan-2021 18:44:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Jan-2021 18:44:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Jan-2021 18:44:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Jan-2021 18:44:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Jan-2021 19:08:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Jan-2021 19:08:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Jan-2021 19:08:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Jan-2021 19:08:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Jan-2021 18:31:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Jan-2021 18:31:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Jan-2021 18:31:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[21-Jan-2021 18:31:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Jan-2021 19:31:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Jan-2021 19:31:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Jan-2021 19:31:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Jan-2021 19:31:08 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Jan-2021 16:06:24 America/Mexico_City] PHP Warning:  date() expects parameter 2 to be int, string given in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php on line 829
+[23-Jan-2021 16:06:24 America/Mexico_City] PHP Warning:  date() expects parameter 2 to be int, string given in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php on line 830
+[23-Jan-2021 16:06:56 America/Mexico_City] PHP Warning:  date() expects parameter 2 to be int, string given in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php on line 829
+[23-Jan-2021 16:06:56 America/Mexico_City] PHP Warning:  date() expects parameter 2 to be int, string given in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php on line 830
+[23-Jan-2021 16:07:41 America/Mexico_City] PHP Warning:  date() expects parameter 2 to be int, string given in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php on line 829
+[23-Jan-2021 16:07:41 America/Mexico_City] PHP Warning:  date() expects parameter 2 to be int, string given in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php on line 830
+[23-Jan-2021 16:51:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Jan-2021 16:51:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Jan-2021 16:51:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Jan-2021 16:51:32 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Jan-2021 20:03:36 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Jan-2021 20:03:36 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Jan-2021 20:03:36 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Jan-2021 20:03:36 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Jan-2021 18:44:58 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Jan-2021 18:44:58 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Jan-2021 18:44:58 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Jan-2021 18:44:58 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Jan-2021 18:53:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Jan-2021 18:53:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Jan-2021 18:53:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Jan-2021 18:53:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Jan-2021 18:54:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Jan-2021 18:54:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Jan-2021 18:54:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Jan-2021 18:54:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Jan-2021 19:05:47 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Jan-2021 19:05:47 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Jan-2021 19:05:47 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[28-Jan-2021 19:05:47 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Jan-2021 18:54:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Jan-2021 18:54:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Jan-2021 18:54:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[29-Jan-2021 18:54:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Jan-2021 17:14:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Jan-2021 17:14:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Jan-2021 17:14:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Jan-2021 17:14:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Jan-2021 17:16:27 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Jan-2021 17:16:27 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Jan-2021 17:16:27 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[30-Jan-2021 17:16:27 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[01-Feb-2021 18:59:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[01-Feb-2021 18:59:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[01-Feb-2021 18:59:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[01-Feb-2021 18:59:05 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Feb-2021 18:53:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Feb-2021 18:53:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Feb-2021 18:53:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[02-Feb-2021 18:53:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Feb-2021 18:50:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Feb-2021 18:50:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Feb-2021 18:50:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[03-Feb-2021 18:50:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Feb-2021 18:57:29 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Feb-2021 18:57:29 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Feb-2021 18:57:29 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[04-Feb-2021 18:57:29 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Feb-2021 19:00:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Feb-2021 19:00:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Feb-2021 19:00:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[05-Feb-2021 19:00:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Feb-2021 16:52:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Feb-2021 16:52:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Feb-2021 16:52:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[06-Feb-2021 16:52:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Feb-2021 18:53:19 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Feb-2021 18:53:19 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Feb-2021 18:53:19 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[08-Feb-2021 18:53:19 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Feb-2021 18:50:47 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/POSBETA/requesthandler.php on line 811
+[09-Feb-2021 18:54:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Feb-2021 18:54:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Feb-2021 18:54:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[09-Feb-2021 18:54:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Feb-2021 18:59:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Feb-2021 18:59:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Feb-2021 18:59:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[10-Feb-2021 18:59:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Feb-2021 19:22:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Feb-2021 19:22:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Feb-2021 19:22:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[11-Feb-2021 19:22:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Feb-2021 18:56:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Feb-2021 18:56:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Feb-2021 18:56:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[12-Feb-2021 18:56:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Feb-2021 17:00:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Feb-2021 17:00:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Feb-2021 17:00:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[13-Feb-2021 17:00:51 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Feb-2021 19:04:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Feb-2021 19:04:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Feb-2021 19:04:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[15-Feb-2021 19:04:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:24 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:24 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:24 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:24 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[16-Feb-2021 18:50:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Feb-2021 18:54:50 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Feb-2021 18:54:50 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Feb-2021 18:54:50 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[17-Feb-2021 18:54:50 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Feb-2021 19:06:52 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Feb-2021 19:06:52 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Feb-2021 19:06:52 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[18-Feb-2021 19:06:52 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Feb-2021 19:08:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Feb-2021 19:08:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Feb-2021 19:08:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[19-Feb-2021 19:08:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Feb-2021 17:04:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Feb-2021 17:04:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Feb-2021 17:04:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[20-Feb-2021 17:04:55 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Feb-2021 18:55:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Feb-2021 18:55:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Feb-2021 18:55:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[22-Feb-2021 18:55:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Feb-2021 19:04:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Feb-2021 19:04:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Feb-2021 19:04:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[23-Feb-2021 19:04:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Feb-2021 19:02:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Feb-2021 19:02:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Feb-2021 19:02:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[24-Feb-2021 19:02:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Feb-2021 19:11:28 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Feb-2021 19:11:28 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Feb-2021 19:11:28 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[25-Feb-2021 19:11:28 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Feb-2021 18:56:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Feb-2021 18:56:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Feb-2021 18:56:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[26-Feb-2021 18:56:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Feb-2021 17:04:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Feb-2021 17:04:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Feb-2021 17:04:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347
+[27-Feb-2021 17:04:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/vialogika.com/ensuenos.vialogika.com/vendor/catfan/medoo/src/Medoo.php on line 1347

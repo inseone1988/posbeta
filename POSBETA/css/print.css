@@ -1,0 +1,80 @@
+@media print,screen {
+    body {
+        font-family: Arial, Verdana, Roboto;
+        width: 80mm !important;
+        height: auto;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    p .folio {
+        font-weight: bold;
+    }
+
+    .folio {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .retiro{
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+
+    .retiro-amm{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .retiro-desc{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    th{
+        font-size: 0.7rem;
+        text-align: left;
+    }
+
+    td{
+        font-size: 0.7rem;
+        text-align: left;
+    }
+
+    .img-logo{
+        max-width: 150px;
+        height: auto;
+    }
+
+    .job-number{font-size: 3rem;font-weight: bold;}
+
+    .text-right{
+        text-align: right;
+    }
+
+    .total{
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+}
+
+.text-right{
+    text-align: right;
+}
