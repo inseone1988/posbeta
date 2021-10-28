@@ -1,0 +1,29 @@
+{
+  "name": "posbeta",
+  "version": "1.0.0",
+  "description": "vialogik POS prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inseone1988/posbeta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inseone1988/posbeta/issues"
+  },
+  "homepage": "https://github.com/inseone1988/posbeta#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^4.2.1",
+    "countup.js": "^2.0.8",
+    "devbridge-autocomplete": "^1.4.11",
+    "jquery": "^3.6.0",
+    "jquery-datetimepicker": "^2.5.21",
+    "moment": "^2.29.1",
+    "numeral": "^2.0.6"
+  }
+}
