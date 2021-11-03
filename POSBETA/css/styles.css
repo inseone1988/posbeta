@@ -96,3 +96,15 @@ h3 small a span{
 .pagoerrortext{
     font-size: 2rem;
 }
+
+.display-center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin : auto;
+}
+
+.btn-lg{
+    font-size: 0.8rem;
+    font-weight: bold;
+}

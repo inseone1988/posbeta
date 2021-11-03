@@ -12,7 +12,7 @@ function autocomplete()
     $term = $_POST["query"];
     $query = sprintf("SELECT %s AS value,%s AS data FROM %s WHERE %s REGEXP '%s'", $data, $value, $table, $field, $term);
     $result = $db->query($query)->fetchAll(PDO::FETCH_ASSOC);
-    echo json_encode(["suggestions" => $result, "error" => $db->error()]);
+    echo json_encode(["suggestions" => $result, "error" => $db->error]);
 }
 
 function newOrder()

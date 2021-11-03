@@ -181,7 +181,7 @@ if (!userLoggedIn()){
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8 bg-secondary">
+                <div class="col-md-8 bg-light">
                     <div class="row">
                         <div class="col-md-5">
                             <div class="lcd-display">
@@ -189,7 +189,7 @@ if (!userLoggedIn()){
                                     <div class="col-md-3">
                                         <div class="lcd-money-sign">$</div>
                                     </div>
-                                    <div class="col-md-9">
+                                    <div class="col-md-9 display-center">
                                         <div class="lcd-money-ammount" id="lcd-money-ammount">0.00</div>
                                     </div>
                                 </div>
