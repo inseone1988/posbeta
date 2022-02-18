@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "catfan/medoo",
-            "version": "v2.1.3",
+            "version": "v2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/catfan/Medoo.git",
-                "reference": "bf7d672e9b5384f375249d5ba2783ee7bee08138"
+                "reference": "65042afa520475664863426d3b44d24604ab031c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/catfan/Medoo/zipball/bf7d672e9b5384f375249d5ba2783ee7bee08138",
-                "reference": "bf7d672e9b5384f375249d5ba2783ee7bee08138",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/65042afa520475664863426d3b44d24604ab031c",
+                "reference": "65042afa520475664863426d3b44d24604ab031c",
                 "shasum": ""
             },
             "require": {
@@ -80,7 +80,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-10-09T08:31:11+00:00"
+            "time": "2021-12-13T07:19:58+00:00"
         },
         {
             "name": "delight-im/auth",

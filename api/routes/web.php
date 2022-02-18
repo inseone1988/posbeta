@@ -18,6 +18,8 @@ $router->get('/', function () use ($router) {
 });
 
 $router->group(['prefix'=>'v0'],function () use ($router){
+    session_start();
+
     $router->get('orders/caja/{cajaid}',['uses'=>'OrderController@getCajaOrders']);
 
     $router->get('caja/{caja}',['uses' => 'CajaController@getCaja']);
@@ -25,7 +27,18 @@ $router->group(['prefix'=>'v0'],function () use ($router){
     $router->get('caja/retiros/{cajaid}',['uses'=>'CajaController@getRetirosFromCaja']);
 
     $router->get('products',['uses'=>'ProductController@getProducts']);
+    $router->get('products/{pid}',['uses'=>'ProductController@getProduct']);
     $router->post('products',['uses'=>'ProductController@editProduct']);
 
     $router->get('users',['uses'=>'UserController@getUsers']);
+
+    $router->get('newOrder',['uses' => 'OrderController@newOrder']);
+
+    $router->post('orders/add',['uses' => 'OrderController@addItemToOrder']);
+
+    $router->get('providers',['uses'=>'ProviderController@getActiveProviders']);
+    $router->post('providers',['uses'=>'ProviderController@saveOrUpdateProvider']);
+
+    $router->post('bills',['uses'=>'ProviderBillController@saveNewBill']);
+
 });

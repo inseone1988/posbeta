@@ -70,6 +70,9 @@ if (!userLoggedIn()) {
                                 <li class='list-group-item'>
                                     <a href='config.php'>Configuracion</a>
                                 </li>
+                                <li class='list-group-item'>
+                                <a href='providers.php'>Proveedores</a>
+</li>
                             ";
                         } ?>
                         <li class="list-group-item">
@@ -428,7 +431,7 @@ if (!userLoggedIn()) {
 <script src="../node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.js"></script>
 <script src="../node_modules/numeral/numeral.js"></script>
 <script src="../node_modules/moment/min/moment-with-locales.min.js"></script>
-<script src="/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
+<script src="../node_modules/chart.js/dist/Chart.min.js"></script>
 <script src="js/chrtdata.js"></script>
 <script src="js/config.js"></script>
 <script src="js/utils.js"></script>

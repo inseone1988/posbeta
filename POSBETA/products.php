@@ -24,6 +24,7 @@ if (!userLoggedIn()) {
     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="css/jqueryautocomplete.css">
     <link rel="stylesheet" href="../node_modules/datatables.net-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="../node_modules/sweetalert2/dist/sweetalert2.css">
     <title>Bienvenidos Casa de la copia</title>
 </head>
 <body>
@@ -66,6 +67,9 @@ if (!userLoggedIn()) {
                                 </li>
                                 <li class='list-group-item'>
                                     <a href='config.php'>Configuracion</a>
+                                </li>
+                                <li class='list-group-item'>
+                                    <a href='providers.php'>Proveedores</a>
                                 </li>
                             ";
                         } ?>
@@ -231,10 +235,9 @@ if (!userLoggedIn()) {
 <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../node_modules/devbridge-autocomplete/dist/jquery.autocomplete.js"></script>
 <script src="js/products.js"></script>
-<script src="../node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
-<script src="../node_modules/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="../node_modules/numeral/numeral.js"></script>
 <script src="../node_modules/moment/moment.js"></script>
+<script src="../node_modules/sweetalert2/dist/sweetalert2.all.js"></script>
 <script>
     $(document).ready(function () {
         getAllProducts();

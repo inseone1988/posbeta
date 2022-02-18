@@ -181,44 +181,58 @@ var sell = {
     }
 };
 
-function getItem(itemid, searchByCode) {
-    var mFunction = "getItem";
-    if (searchByCode) {
-        mFunction = "getItemByCode";
-    }
-    $.ajax({
-        url: "requesthandler.php",
-        type: "POST",
-        dataType: "JSON",
-        data: {"function": mFunction, "itemid": itemid},
-        success: function (r) {
-            if (r.success) {
-                $("#item-search").val("");
-                if (r.payload.length > 0) {
-                    sell.initItem(r.payload[0], true);
-                } else {
-                    alert("No se ha encontrado el articulo");
-                }
-            }
-        }
+function getItem(itemid, orderId,sbc) {
+    // var mFunction = "getItem";
+    // if (searchByCode) {
+    //     mFunction = "getItemByCode";
+    // }
+    // $.ajax({
+    //     url: "requesthandler.php",
+    //     type: "POST",
+    //     dataType: "JSON",
+    //     data: {"function": mFunction, "itemid": itemid},
+    //     success: function (r) {
+    //         if (r.success) {
+    //             $("#item-search").val("");
+    //             if (r.payload.length > 0) {
+    //                 sell.initItem(r.payload[0], true);
+    //             } else {
+    //                 alert("No se ha encontrado el articulo");
+    //             }
+    //         }
+    //     }
+    // });
+    let data = {"itemId" : itemid,"orderId" : orderId};
+    if (sbc) data.sbc = sbc;
+    $.post("/api/public/v0/orders/add",data,r=>{
+        console.log(r);
+        sell = r;
+        console.log(sell);
     });
 }
 
 function getSellFolio(callback) {
-    $.ajax({
-        url: "requesthandler.php",
-        type: "POST",
-        dataType: "JSON",
-        data: {"function": "newOrder",},
-        success: function (r) {
-            if (r.success) {
-                sell.orderid = r.orderid;
-                sell.order.OrderId = r.orderid;
-                sell.order.Timestamp = moment().format("YYYY-MM-DD HH:mm:ss");
-                callback(r.orderid);
-            }
+    // $.ajax({
+    //     url: "requesthandler.php",
+    //     type: "POST",
+    //     dataType: "JSON",
+    //     data: {"function": "newOrder",},
+    //     success: function (r) {
+    //         if (r.success) {
+    //             sell.orderid = r.orderid;
+    //             sell.order.OrderId = r.orderid;
+    //             sell.order.Timestamp = moment().format("YYYY-MM-DD HH:mm:ss");
+    //             callback(r.orderid);
+    //         }
+    //     }
+    // });
+    $.getJSON("/api/public/v0/newOrder",data => {
+        if (data.success){
+            callback(data.payload.orderId);
+        }else{
+            alert(data.message);
         }
-    });
+    })
 }
 
 function selectRow(element) {
@@ -253,7 +267,7 @@ function addAnticipoRow() {
 }
 
 function addRow(itemdata, position) {
-    if (position == undefined) {
+    if (position === undefined) {
         position = (sell.items.length - 1);
     }
     var visible = itemdata.Status === 0 ? "d-none" : "";
@@ -281,16 +295,17 @@ function setItemSearchListener() {
     });
 }
 
-function goSearch(itemid, searchByCode) {
-    var sbc = searchByCode !== undefined;
-    if (sell.orderid === 0) {
-        getSellFolio(function (folio) {
-            $("#orderidfolio").text("Folio : " + folio);
-            getItem(itemid, sbc);
-        });
-    } else {
-        getItem(itemid, sbc);
-    }
+function goSearch(itemid,sbc) {
+    // var sbc = searchByCode !== undefined;
+    getItem(itemid,sell.orderid,sbc);
+    // if (sell.orderid === 0) {
+    //     getSellFolio(function (folio) {
+    //         $("#orderidfolio").text("Folio : " + folio);
+    //         getItem(itemid, sbc);
+    //     });
+    // } else {
+    //     getItem(itemid, sbc);
+    // }
 }
 
 function getEngargolado(size) {

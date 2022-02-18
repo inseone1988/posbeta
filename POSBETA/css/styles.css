@@ -108,3 +108,23 @@ h3 small a span{
     font-size: 0.8rem;
     font-weight: bold;
 }
+
+label{
+    font-weight: 600 !important;
+    color: #403f3f !important;
+    font-size: 0.8rem !important;
+}
+
+tr, th {
+    color: lightslategray;
+    font-weight: 400;
+}
+
+.no-data-text{
+    color: #e9065a;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}

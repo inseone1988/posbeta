@@ -53,15 +53,18 @@ function returnItem($itemid)
 
 function getAllItems()
 {
-    $resultPayload = [];
     $db = db();
-    $items = $db->select("products", ["ItemId"]);
+    $items = $db->select("products","*");
     for ($i = 0; $i < count($items); $i++) {
-        array_push($resultPayload, returnItem($items[$i]["ItemId"]));
+        $item = $items[$i];
+        $pid = $item["ItemId"];
+        $may = $db->select("mayoreo","*",["productid"=>$pid]);
+        $items[$i]["hasmayoreo"] = count($may)>0;
+        $items[$i]["mayoreo"] = $may;
     }
     echo json_encode([
         "success" => true,
-        "payload" => $resultPayload
+        "payload" => $items
     ]);
 }
 

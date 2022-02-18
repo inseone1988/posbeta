@@ -58,6 +58,9 @@ if (!userLoggedIn()){
                     <ul class="list-group">
                         <li class="list-group-item active"><?php echo $_SESSION["auth_username"];?></li>
                         <li class="list-group-item">Inicio</li>
+                        <li class="list-group-item">
+                            <a href="inventories.php">Almacen</a>
+                        </li>
                         <?php if (isAdmin(intval($_SESSION["auth_user_id"]))){
                             echo "
                                 <li class='list-group-item'>
@@ -769,7 +772,7 @@ format:"Y-m-d H:i class="form-control form-control-sm" placeholder="De">
 <script>
     $(document).ready(function(){
        setItemSearchListener();
-       setCorteListeners(),
+       setCorteListeners();
        switchOpTypeText();
        getPendingOrders();
        getCounters(function () {
